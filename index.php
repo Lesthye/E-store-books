@@ -13,6 +13,9 @@
 <body>
     <?php include('register.php');
     include('login.php');
+    include('home.php');
+    include('admin_page.php');
+
     ?>
 </body>
 

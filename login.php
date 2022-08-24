@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
          $_SESSION['admin_email'] = $row['email'];
          $_SESSION['admin_id'] = $row['id'];
          
-        //  header('location:admin_page.php'); //CONTINUE HERE
+         header('location:admin_page.php'); //Goes to admin_page
 
       }elseif($row['user_type'] == 'user'){
 
@@ -28,9 +28,9 @@ if(isset($_POST['submit'])){
          $_SESSION['user_email'] = $row['email'];
          $_SESSION['user_id'] = $row['id'];
          
-         // header('location:index.php');
+         header('location:home.php');
 
-      } $message[] = 'logged in successfully!';
+      }  $message[] = 'logged in successfully!';
 
    }else{
       $message[] = 'incorrect email or password!';
