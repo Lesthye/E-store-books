@@ -34,7 +34,7 @@ if(isset($_POST['submit'])){
 
    }else{
       $message[] = 'incorrect email or password!';
-   }
+   }  
 
 }
 
