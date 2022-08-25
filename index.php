@@ -1,1 +1,1 @@
-    <?php include('register.php'); ?>
+    <?php include('login.php'); ?>
