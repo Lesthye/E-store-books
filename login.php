@@ -19,22 +19,20 @@ if(isset($_POST['submit'])){
          $_SESSION['admin_name'] = $row['name'];
          $_SESSION['admin_email'] = $row['email'];
          $_SESSION['admin_id'] = $row['id'];
-         
-         header('location:admin_page.php'); 
+         header('location:admin_page.php');
 
       }elseif($row['user_type'] == 'user'){
 
          $_SESSION['user_name'] = $row['name'];
          $_SESSION['user_email'] = $row['email'];
          $_SESSION['user_id'] = $row['id'];
-         
          header('location:home.php');
 
-      }  $message[] = 'logged in successfully!';
+      }
 
    }else{
       $message[] = 'incorrect email or password!';
-   }  
+   }
 
 }
 
@@ -52,7 +50,7 @@ if(isset($_POST['submit'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="/css/style.css">
+   <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>

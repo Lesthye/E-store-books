@@ -85,14 +85,14 @@ if(isset($_POST['order_btn'])){
             $total_price = ($fetch_cart['price'] * $fetch_cart['quantity']);
             $grand_total += $total_price;
    ?>
-   <p> <?php echo $fetch_cart['name']; ?> <span>(<?php echo '$'.$fetch_cart['price'].'/-'.' x '. $fetch_cart['quantity']; ?>)</span> </p>
+   <p> <?php echo $fetch_cart['name']; ?> <span>(<?php echo '€'.$fetch_cart['price']. ' x '. $fetch_cart['quantity']; ?>)</span> </p>
    <?php
       }
    }else{
       echo '<p class="empty">your cart is empty</p>';
    }
    ?>
-   <div class="grand-total"> grand total : <span>$<?php echo $grand_total; ?>/-</span> </div>
+   <div class="grand-total">Total amount spent <span><?php echo $grand_total; ?>€</span> </div>
 
 </section>
 
@@ -102,49 +102,41 @@ if(isset($_POST['order_btn'])){
       <h3>place your order</h3>
       <div class="flex">
          <div class="inputBox">
-            <span>your name :</span>
+            <span>Name</span>
             <input type="text" name="name" required placeholder="enter your name">
          </div>
          <div class="inputBox">
-            <span>your number :</span>
+            <span>Phone Number</span>
             <input type="number" name="number" required placeholder="enter your number">
          </div>
          <div class="inputBox">
-            <span>your email :</span>
+            <span>Email</span>
             <input type="email" name="email" required placeholder="enter your email">
          </div>
          <div class="inputBox">
-            <span>payment method :</span>
+            <span>Payment Method</span>
             <select name="method">
                <option value="cash on delivery">cash on delivery</option>
                <option value="credit card">credit card</option>
                <option value="paypal">paypal</option>
-               <option value="paytm">paytm</option>
             </select>
          </div>
          <div class="inputBox">
-            <span>address line 01 :</span>
-            <input type="number" min="0" name="flat" required placeholder="e.g. flat no.">
+            <span>Flat No</span>
+            <input type="number" min="0" name="flat" required placeholder="enter your flat no.">
          </div>
          <div class="inputBox">
-            <span>address line 01 :</span>
-            <input type="text" name="street" required placeholder="e.g. street name">
+            <span>Street name</span>
+            <input type="text" name="street" required placeholder="enter the street name">
          </div>
          <div class="inputBox">
-            <span>city :</span>
-            <input type="text" name="city" required placeholder="e.g. mumbai">
+            <span>City</span>
+            <input type="text" name="city" required placeholder="enter the city">
          </div>
+        
          <div class="inputBox">
-            <span>state :</span>
-            <input type="text" name="state" required placeholder="e.g. maharashtra">
-         </div>
-         <div class="inputBox">
-            <span>country :</span>
-            <input type="text" name="country" required placeholder="e.g. india">
-         </div>
-         <div class="inputBox">
-            <span>pin code :</span>
-            <input type="number" min="0" name="pin_code" required placeholder="e.g. 123456">
+            <span>Country</span>
+            <input type="text" name="country" required placeholder="enter your country">
          </div>
       </div>
       <input type="submit" value="order now" class="btn" name="order_btn">

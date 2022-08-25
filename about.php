@@ -64,84 +64,46 @@ if(!isset($user_id)){
       <div class="box">
          <img src="images/pic-1.png" alt="">
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
+         <h3>John Deo</h3>
       </div>
 
       <div class="box">
          <img src="images/pic-2.png" alt="">
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
+         <h3>Jane Deo</h3>
       </div>
 
       <div class="box">
          <img src="images/pic-3.png" alt="">
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
+         <h3>John Deo</h3>
       </div>
 
       <div class="box">
          <img src="images/pic-4.png" alt="">
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
+         <h3>Jane Deo</h3>
       </div>
 
       <div class="box">
          <img src="images/pic-5.png" alt="">
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
+         <h3>John Deo</h3>
       </div>
 
       <div class="box">
          <img src="images/pic-6.png" alt="">
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
+         <h3>Jane Deo</h3>
       </div>
 
    </div>
 
 </section>
+
+
+
+
 
 <?php include 'footer.php'; ?>
 

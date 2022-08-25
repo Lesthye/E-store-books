@@ -27,7 +27,7 @@ if(isset($message)){
 
    <div class="header-2">
       <div class="flex">
-         <a href="home.php" class="logo">Book.Smart</a>
+         <a href="home.php" class="logo">Book.Smart.</a>
 
          <nav class="navbar">
             <a href="home.php">home</a>
@@ -55,5 +55,5 @@ if(isset($message)){
          </div>
       </div>
    </div>
-
+<hr>
 </header>

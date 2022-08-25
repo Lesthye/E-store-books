@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
 :root {
-  --purple:#8e44ad;
-  --red:#c0392b;
-  --orange:#f39c12;
-  --black:#333;
+  --purple:#ea7862;
+  --orange:#ea9a62;
+  --black:rgb(126, 125, 125);
   --white:#fff;
-  --light-color:#666;
+  --light-color:rgb(165, 164, 164);
   --light-white:#ccc;
   --light-bg:#f5f5f5;
   --border:.1rem solid var(--black);
@@ -13,7 +12,7 @@
 }
 
 * {
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -72,7 +71,7 @@ section {
   text-align: center;
   border: var(--border);
   background-color: var(--white);
-  color: var(--red);
+  color: var(--purple);
   font-size: 2rem;
 }
 
@@ -98,7 +97,7 @@ section {
 
 .message i {
   cursor: pointer;
-  color: var(--red);
+  color: var(--purple);
   font-size: 2.5rem;
 }
 
@@ -136,7 +135,7 @@ section {
 }
 
 .delete-btn {
-  background-color: var(--red);
+  background-color: var(--purple);
 }
 
 .white-btn:hover {
@@ -275,7 +274,6 @@ section {
   padding: 2rem;
   background-color: var(--white);
   box-shadow: var(--box-shadow);
-  border: var(--border);
   text-align: center;
 }
 
@@ -291,7 +289,6 @@ section {
   color: var(--purple);
   font-size: 2rem;
   border-radius: 0.5rem;
-  border: var(--border);
 }
 
 .add-products form {
@@ -300,7 +297,6 @@ section {
   padding: 2rem;
   text-align: center;
   box-shadow: var(--box-shadow);
-  border: var(--border);
   max-width: 50rem;
   margin: 0 auto;
 }
@@ -320,7 +316,7 @@ section {
   padding: 1.2rem 1.4rem;
   color: var(--black);
   font-size: 1.8rem;
-  border: var(--border);
+  /* border:var(--border); */
 }
 
 .show-products .box-container {
@@ -341,7 +337,6 @@ section {
   text-align: center;
   padding: 2rem;
   border-radius: 0.5rem;
-  border: var(--border);
   box-shadow: var(--box-shadow);
   background-color: var(--white);
 }
@@ -359,7 +354,7 @@ section {
 .show-products .box-container .box .price {
   padding: 1rem 0;
   font-size: 2.5rem;
-  color: var(--red);
+  color: var(--purple);
 }
 
 .edit-product-form {
@@ -393,7 +388,6 @@ section {
 .edit-product-form form .box {
   margin: 1rem 0;
   padding: 1.2rem 1.4rem;
-  border: var(--border);
   border-radius: 0.5rem;
   background-color: var(--light-bg);
   font-size: 1.8rem;
@@ -414,7 +408,6 @@ section {
 .orders .box-container .box {
   background-color: var(--white);
   padding: 2rem;
-  border: var(--border);
   box-shadow: var(--box-shadow);
   border-radius: 0.5rem;
 }
@@ -457,7 +450,6 @@ section {
 .users .box-container .box {
   background-color: var(--white);
   padding: 2rem;
-  border: var(--border);
   box-shadow: var(--box-shadow);
   border-radius: 0.5rem;
   text-align: center;
@@ -490,7 +482,6 @@ section {
 .messages .box-container .box {
   background-color: var(--white);
   padding: 2rem;
-  border: var(--border);
   box-shadow: var(--box-shadow);
   border-radius: 0.5rem;
 }

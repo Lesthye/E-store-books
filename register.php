@@ -2,7 +2,7 @@
 
 include 'config.php';
 
-if (isset($_POST['submit'])) {
+if(isset($_POST['submit'])){
 
    $name = mysqli_real_escape_string($conn, $_POST['name']);
    $email = mysqli_real_escape_string($conn, $_POST['email']);
@@ -12,17 +12,18 @@ if (isset($_POST['submit'])) {
 
    $select_users = mysqli_query($conn, "SELECT * FROM `users` WHERE email = '$email' AND password = '$pass'") or die('query failed');
 
-   if (mysqli_num_rows($select_users) > 0) {
+   if(mysqli_num_rows($select_users) > 0){
       $message[] = 'user already exist!';
-   } else {
-      if ($pass != $cpass) {
+   }else{
+      if($pass != $cpass){
          $message[] = 'confirm password not matched!';
-      } else {
+      }else{
          mysqli_query($conn, "INSERT INTO `users`(name, email, password, user_type) VALUES('$name', '$email', '$cpass', '$user_type')") or die('query failed');
          $message[] = 'registered successfully!';
          header('location:login.php');
       }
    }
+
 }
 
 ?>
@@ -39,10 +40,12 @@ if (isset($_POST['submit'])) {
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="/css/style.css">
+   <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
+
+
 
 <?php
 if(isset($message)){
@@ -56,7 +59,7 @@ if(isset($message)){
    }
 }
 ?>
-
+   
 <div class="form-container">
 
    <form action="" method="post">

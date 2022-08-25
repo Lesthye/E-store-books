@@ -52,7 +52,7 @@ if(isset($_POST['add_to_cart'])){
 <section class="home">
 
    <div class="content">
-      <h3>Hand Picked Book to your door.</h3>
+      <h3>order any book and receive it within days</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
       <a href="about.php" class="white-btn">discover more</a>
    </div>
@@ -73,7 +73,7 @@ if(isset($_POST['add_to_cart'])){
      <form action="" method="post" class="box">
       <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
       <div class="name"><?php echo $fetch_products['name']; ?></div>
-      <div class="price">$<?php echo $fetch_products['price']; ?>/-</div>
+      <div class="price"><?php echo $fetch_products['price']; ?>€</div>
       <input type="number" min="1" name="product_quantity" value="1" class="qty">
       <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">
       <input type="hidden" name="product_price" value="<?php echo $fetch_products['price']; ?>">
