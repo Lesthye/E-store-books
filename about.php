@@ -41,7 +41,7 @@ if (!isset($user_id)) {
         <div class="flex">
 
             <div class="image">
-                <img src="images/about-img.jpg" alt="">
+                <img src="images/about-img.jpg" alt="About image book">
             </div>
 
             <div class="content">
@@ -62,37 +62,37 @@ if (!isset($user_id)) {
         <div class="box-container">
 
             <div class="box">
-                <img src="images/pic-1.png" alt="">
+                <img src="images/pic-1.png" alt="John Doe picture">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
                 <h3>John Doe</h3>
             </div>
 
             <div class="box">
-                <img src="images/pic-2.png" alt="">
+                <img src="images/pic-2.png" alt="Jane Doe picture">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
                 <h3>Jane Doe</h3>
             </div>
 
             <div class="box">
-                <img src="images/pic-3.png" alt="">
+                <img src="images/pic-3.png" alt="John Doe picture">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
                 <h3>John Doe</h3>
             </div>
 
             <div class="box">
-                <img src="images/pic-4.png" alt="">
+                <img src="images/pic-4.png" alt="Jane Doe picture">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
                 <h3>Jane Doe</h3>
             </div>
 
             <div class="box">
-                <img src="images/pic-5.png" alt="">
+                <img src="images/pic-5.png" alt="John Doe picture">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
                 <h3>John Doe</h3>
             </div>
 
             <div class="box">
-                <img src="images/pic-6.png" alt="">
+                <img src="images/pic-6.png" alt="Jane Doe picture">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
                 <h3>Jane Doe</h3>
             </div>

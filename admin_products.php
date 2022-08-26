@@ -126,7 +126,7 @@ if (isset($_POST['update_product'])) {
                 while ($fetch_products = mysqli_fetch_assoc($select_products)) {
             ?>
                     <div class="box">
-                        <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
+                        <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="Uploaded product image">
                         <div class="name"><?php echo $fetch_products['name']; ?></div>
                         <div class="price"><?php echo $fetch_products['price']; ?>€</div>
                         <a href="admin_products.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">update</a>
@@ -154,7 +154,7 @@ if (isset($_POST['update_product'])) {
                     <form action="" method="post" enctype="multipart/form-data">
                         <input type="hidden" name="update_p_id" value="<?php echo $fetch_update['id']; ?>">
                         <input type="hidden" name="update_old_image" value="<?php echo $fetch_update['image']; ?>">
-                        <img src="uploaded_img/<?php echo $fetch_update['image']; ?>" alt="">
+                        <img src="uploaded_img/<?php echo $fetch_update['image']; ?>" alt="Uploaded product image">
                         <input type="text" name="update_name" value="<?php echo $fetch_update['name']; ?>" class="box" required placeholder="enter product name">
                         <input type="number" name="update_price" value="<?php echo $fetch_update['price']; ?>" min="0" class="box" required placeholder="enter product price">
                         <input type="file" class="box" name="update_image" accept="image/jpg, image/jpeg, image/png">
